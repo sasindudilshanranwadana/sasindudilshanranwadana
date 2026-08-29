@@ -1,0 +1,111 @@
+<svg fill="none" viewBox="0 0 850 380" width="850" height="380" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Space+Grotesk:wght@700&amp;display=swap');
+
+        .terminal-window {
+          font-family: 'Fira Code', monospace;
+          background: #0B0C10;
+          border: 2px solid #08D9D6;
+          border-radius: 10px;
+          box-shadow: 6px 6px 0px #FF2E63;
+          box-sizing: border-box;
+          height: 380px;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+        }
+
+        .titlebar {
+          background: #141722;
+          padding: 10px 16px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 2px solid #1F293D;
+        }
+
+        .dots {
+          display: flex;
+          gap: 8px;
+        }
+
+        .dot {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 1px solid rgba(0,0,0,0.5);
+        }
+
+        .dot-red { background: #FF2E63; box-shadow: 0 0 6px rgba(255,46,99,0.6); }
+        .dot-yellow { background: #FFD400; box-shadow: 0 0 6px rgba(255,212,0,0.6); }
+        .dot-green { background: #08D9D6; box-shadow: 0 0 6px rgba(8,217,214,0.6); }
+
+        .title-text {
+          color: #94A3B8;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+        }
+
+        .term-body {
+          padding: 18px 22px;
+          font-size: 13px;
+          line-height: 1.55;
+          color: #EAEAEA;
+          overflow: hidden;
+        }
+
+        .prompt {
+          color: #08D9D6;
+          font-weight: 700;
+        }
+
+        .prompt-user { color: #FF2E63; font-weight: 700; }
+        .prompt-host { color: #FFD400; font-weight: 700; }
+
+        .json-key { color: #08D9D6; font-weight: 600; }
+        .json-str { color: #F4EAD6; }
+        .json-val-accent { color: #FFD400; font-weight: 600; }
+        .json-val-sec { color: #FF2E63; font-weight: 600; }
+        .json-val-status { color: #00FF66; font-weight: 700; text-shadow: 0 0 8px rgba(0,255,102,0.4); }
+        .json-brace { color: #7B2FF7; font-weight: 700; }
+
+        .indent { padding-left: 20px; }
+        .indent-2 { padding-left: 40px; }
+      </style>
+
+      <div class="terminal-window">
+        <div class="titlebar">
+          <div class="dots">
+            <div class="dot dot-red"></div>
+            <div class="dot dot-yellow"></div>
+            <div class="dot dot-green"></div>
+          </div>
+          <div class="title-text">sasi@sasiverse:~ // operator-dossier.json</div>
+          <div style="font-size: 10px; color: #08D9D6; font-weight: 700;">ZSH · UTF-8</div>
+        </div>
+
+        <div class="term-body">
+          <div><span class="prompt-user">sasi</span><span style="color:#FFF">@</span><span class="prompt-host">sasiverse</span> <span style="color:#7B2FF7">❯</span> <span style="color:#FFF">cat /etc/operator/dossier.json</span></div>
+          <div class="json-brace">{</div>
+          <div class="indent"><span class="json-key">"operator"</span>: <span class="json-str">"Sasindu Dilshan Ranwadana"</span>,</div>
+          <div class="indent"><span class="json-key">"coordinates"</span>: <span class="json-val-accent">"Darwin City, NT, Australia 🇦🇺 [LAT −12.46 · LONG 130.84]"</span>,</div>
+          <div class="indent"><span class="json-key">"education"</span>: <span class="json-brace">{</span></div>
+          <div class="indent-2"><span class="json-key">"postgraduate"</span>: <span class="json-str">"Master of IT (Cybersecurity) @ Charles Darwin University [2026-2027]"</span>,</div>
+          <div class="indent-2"><span class="json-key">"undergraduate"</span>: <span class="json-str">"Bachelor of Computer Science (Cybersecurity) @ Swinburne University"</span>,</div>
+          <div class="indent-2"><span class="json-key">"certifications"</span>: <span class="json-val-accent">"25+ Industry Certifications across Security Ops, Pentesting &amp; Cloud"</span></div>
+          <div class="indent"><span class="json-brace">}</span>,</div>
+          <div class="indent"><span class="json-key">"tactical_capabilities"</span>: <span class="json-brace">[</span></div>
+          <div class="indent-2"><span class="json-val-sec">"Ethical Hacking &amp; Pentesting (Wireshark, Burp Suite, Nmap, Metasploit, Linux Hardening)"</span>,</div>
+          <div class="indent-2"><span class="json-str">"Production Full-Stack &amp; Creative Web (React 19, TypeScript, Tailwind CSS, Node.js, Three.js)"</span>,</div>
+          <div class="indent-2"><span class="json-str">"Distributed AI Agents, FastMCP Protocols &amp; Zero-Trust Mesh Infrastructure"</span></div>
+          <div class="indent"><span class="json-brace">]</span>,</div>
+          <div class="indent"><span class="json-key">"status"</span>: <span class="json-val-status">"● ALL SYSTEMS NOMINAL // AVAILABLE FOR ENGAGEMENT"</span></div>
+          <div class="json-brace">}</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

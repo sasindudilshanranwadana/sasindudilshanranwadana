@@ -31,35 +31,9 @@
 
 ### ⚡ `PANEL 01 // OPERATOR DOSSIER`
 
-<table>
-<tr>
-<td>
-
-```bash
-┌──(sasi㉿sasiverse)-[~]
-└─$ cat /etc/operator/dossier.json
-{
-  "operator": "Sasindu Dilshan Ranwadana",
-  "callsign": "sasiverse",
-  "coordinates": "Darwin City, Northern Territory, Australia 🇦🇺",
-  "education": {
-    "postgraduate": "Master of IT (Cybersecurity) @ Charles Darwin University [2026-2027]",
-    "undergraduate": "Bachelor of Computer Science (Cybersecurity Major) @ Swinburne University",
-    "credentials": "25+ Industry Certifications across Security Ops, Pentesting & Cloud"
-  },
-  "tactical_capabilities": [
-    "Red/Blue Teaming (Wireshark, Burp Suite, Nmap, Metasploit, Linux Hardening)",
-    "Production Full-Stack (React 19, TypeScript, Tailwind CSS, Node.js, PostgreSQL)",
-    "Distributed AI & FastMCP Server Ecosystems",
-    "Cloud Architecture, Zero-Trust Mesh & WireGuard Infrastructure"
-  ],
-  "system_status": "🟢 ALL SYSTEMS NOMINAL // AVAILABLE FOR ENGAGEMENT"
-}
-```
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/sasindudilshanranwadana/sasindudilshanranwadana/main/assets/operator-dossier.svg" width="100%" alt="Operator Dossier Terminal" />
+</div>
 
 ---
 
