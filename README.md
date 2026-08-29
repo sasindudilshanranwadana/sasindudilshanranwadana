@@ -7,7 +7,14 @@
 
 <br/><br/>
 
-<!-- Social Badges with Brutalist Comic Outlines -->
+<!-- Realtime Typing Display -->
+<a href="https://sasiverse.com">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1000&color=08D9D6&center=true&vCenter=true&multiline=false&width=650&height=45&lines=Master+of+IT+(Cybersecurity)+%40+CDU;Offensive+%26+Defensive+Security+Architect;Full-Stack+Engineer+(React+%2B+TypeScript+%2B+Node);Building+Autonomous+AI+%26+FastMCP+Protocols;Zero-Trust+Mesh+%26+Cloud+Infrastructure" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- Social & Comms Hub -->
 <a href="https://sasiverse.com"><img src="https://img.shields.io/badge/PORTFOLIO-sasiverse.com-0B0C10?style=for-the-badge&logo=firefox&logoColor=08D9D6&labelColor=0B0C10" /></a>
 <a href="https://linkedin.com/in/sasiverse/"><img src="https://img.shields.io/badge/LINKEDIN-sasiverse-0B0C10?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=0B0C10" /></a>
 <a href="mailto:hello@sasiverse.com"><img src="https://img.shields.io/badge/CONTACT-hello%40sasiverse.com-0B0C10?style=for-the-badge&logo=gmail&logoColor=FF2E63&labelColor=0B0C10" /></a>
@@ -15,10 +22,8 @@
 
 <br/><br/>
 
-<!-- Realtime Typing Display -->
-<a href="https://sasiverse.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=3000&pause=1000&color=08D9D6&center=true&vCenter=true&multiline=false&width=650&height=45&lines=Master+of+IT+(Cybersecurity)+%40+CDU;Offensive+%26+Defensive+Security+Architect;Full-Stack+Engineer+(React+%2B+TypeScript+%2B+Node);Building+Autonomous+AI+%26+FastMCP+Protocols;Zero-Trust+Mesh+%26+Cloud+Infrastructure" alt="Typing SVG" />
-</a>
+<!-- Rich Cyber Telemetry Card -->
+<img src="https://raw.githubusercontent.com/sasindudilshanranwadana/sasindudilshanranwadana/main/assets/cyber-telemetry.svg" width="100%" alt="Cyber Telemetry Metrics" />
 
 </div>
 
@@ -58,11 +63,11 @@
 
 ---
 
-### 🛡️ `PANEL 02 // TACTICAL ARSENAL`
+### 🛡️ `PANEL 02 // TACTICAL ARSENAL & SKILL MATRIX`
 
 <div align="center">
 
-| Sector | Mission Tech Stack |
+| Sector | Tactical Stack & Tooling |
 | :--- | :--- |
 | **🛡️ Cybersecurity & Pentesting** | `Wireshark` `Burp Suite` `Nmap` `Metasploit` `Linux Hardening` `OWASP Top 10` `Network Security` |
 | **⚡ Frontend & Creative Web** | `React` `TypeScript` `Next.js` `Three.js` `GSAP` `Tailwind CSS` `Framer Motion` `Vite` |

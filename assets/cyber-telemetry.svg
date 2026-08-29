@@ -1,0 +1,137 @@
+<svg fill="none" viewBox="0 0 850 260" width="850" height="260" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=Space+Grotesk:wght@600;700;900&amp;display=swap');
+
+        .cyber-grid {
+          font-family: 'Space Grotesk', -apple-system, sans-serif;
+          background: #0B0C10;
+          border: 2px solid #08D9D6;
+          border-radius: 12px;
+          box-shadow: 6px 6px 0px #FF2E63;
+          padding: 20px 24px;
+          box-sizing: border-box;
+          height: 260px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .header-row {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px dashed rgba(8, 217, 214, 0.4);
+          padding-bottom: 8px;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 11px;
+          font-weight: 700;
+          color: #08D9D6;
+          letter-spacing: 0.15em;
+        }
+
+        .stats-container {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 14px;
+          margin: 12px 0;
+        }
+
+        .stat-card {
+          background: rgba(18, 20, 29, 0.85);
+          border: 1.5px solid #1f293d;
+          border-radius: 8px;
+          padding: 12px 10px;
+          text-align: center;
+          position: relative;
+          box-shadow: 3px 3px 0px #000;
+        }
+
+        .stat-card.active-1 { border-color: #08D9D6; }
+        .stat-card.active-2 { border-color: #FF2E63; }
+        .stat-card.active-3 { border-color: #FFD400; }
+        .stat-card.active-4 { border-color: #7B2FF7; }
+
+        .stat-val {
+          font-family: 'Space Grotesk', sans-serif;
+          font-size: 26px;
+          font-weight: 900;
+          line-height: 1;
+          margin-bottom: 4px;
+        }
+
+        .val-cyan { color: #08D9D6; text-shadow: 0 0 10px rgba(8, 217, 214, 0.4); }
+        .val-pink { color: #FF2E63; text-shadow: 0 0 10px rgba(255, 46, 99, 0.4); }
+        .val-yellow { color: #FFD400; text-shadow: 0 0 10px rgba(255, 212, 0, 0.4); }
+        .val-purple { color: #A855F7; text-shadow: 0 0 10px rgba(123, 47, 247, 0.4); }
+
+        .stat-lbl {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 10px;
+          font-weight: 700;
+          color: #94A3B8;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+        }
+
+        .status-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 10.5px;
+          color: #EAEAEA;
+          background: rgba(8, 217, 214, 0.06);
+          padding: 8px 12px;
+          border-radius: 6px;
+          border: 1px solid rgba(8, 217, 214, 0.2);
+        }
+
+        .pulse-dot {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          background-color: #08D9D6;
+          border-radius: 50%;
+          margin-right: 6px;
+          box-shadow: 0 0 8px #08D9D6;
+        }
+      </style>
+
+      <div class="cyber-grid">
+        <div class="header-row">
+          <span>// REAL-TIME TELEMETRY &amp; METRICS</span>
+          <span>LOCATION: DARWIN [LAT −12.46 LONG 130.84]</span>
+          <span>SECURITY OPERATOR α</span>
+        </div>
+
+        <div class="stats-container">
+          <div class="stat-card active-1">
+            <div class="stat-val val-cyan">7+</div>
+            <div class="stat-lbl">Years Experience</div>
+          </div>
+          <div class="stat-card active-2">
+            <div class="stat-val val-pink">25+</div>
+            <div class="stat-lbl">Certifications</div>
+          </div>
+          <div class="stat-card active-3">
+            <div class="stat-val val-yellow">16+</div>
+            <div class="stat-lbl">Public Repos</div>
+          </div>
+          <div class="stat-card active-4">
+            <div class="stat-val val-purple">50+</div>
+            <div class="stat-lbl">Deployed Systems</div>
+          </div>
+        </div>
+
+        <div class="status-footer">
+          <div><span class="pulse-dot"></span>CORE STATUS: <strong>100% OPERATIONAL // AVAILABLE FOR ENGAGEMENT</strong></div>
+          <div>ENCRYPTION: <strong>ED25519 · TLS 1.3</strong></div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
