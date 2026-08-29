@@ -54,15 +54,6 @@ STATUS      ● Available for assignment
 
 <br/>
 
-### 🏆 `TROPHY_ROOM`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=sasindudilshanranwadana&theme=dracula&no-frame=true&no-bg=true&row=1&column=6" alt="Trophies"/>
-
-</div>
-
-<br/>
 
 ### 🎬 `FEATURED_ARCS`
 
@@ -102,11 +93,6 @@ Personal · MCP tooling
 ### 📊 `STATS`
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=sasindudilshanranwadana&show_icons=true&hide_border=true&bg_color=0A0A12&title_color=FFD400&icon_color=0AD7FF&text_color=F4EAD6&ring_color=FF2D78" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sasindudilshanranwadana&layout=compact&hide_border=true&bg_color=0A0A12&title_color=FFD400&text_color=F4EAD6&langs_count=8" alt="Top Languages" height="165"/>
-
-<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sasindudilshanranwadana&hide_border=true&background=0A0A12&ring=FF2D78&fire=FFD400&currStreakLabel=0AD7FF&sideLabels=F4EAD6&currStreakNum=F4EAD6&sideNums=F4EAD6&dates=94a3ad" alt="GitHub Streak"/>
 
